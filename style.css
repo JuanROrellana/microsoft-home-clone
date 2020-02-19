@@ -74,11 +74,11 @@ ul {
     color: white;
 }
 
-.dark{
+.dark {
     color: white;
 }
 
-.dark .btn{
+.dark .btn {
     background: #f4f4f4;
     color: #333;
 }
@@ -135,19 +135,19 @@ ul {
     font-weight: bold;
 }
 
-.home-cards a:hover i{
+.home-cards a:hover i {
     margin-left: 10px;
 }
 
 /* Xbox */
-.xbox{
+.xbox {
     height: 350px;
     width: 100%;
     background: url('/img/xbox.png') no-repeat center center/cover;
     margin-bottom: 20px;
 }
 
-.xbox .content{
+.xbox .content {
     width: 40%;
     padding: 50px 0 0 30px;
 }
@@ -157,14 +157,14 @@ ul {
 }
 
 /* Carbon */
-.carbon{
+.carbon {
     height: 350px;
     width: 100%;
     background: url('/img/carbon.jpg') no-repeat center center/cover;
     margin-bottom: 20px;
 }
 
-.carbon .content{
+.carbon .content {
     width: 55%;
     padding: 100px 30px;
 }
@@ -174,7 +174,7 @@ ul {
 }
 
 /* Follow */
-.follow{
+.follow {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -184,3 +184,27 @@ ul {
 .follow * {
     margin-right: 10px;
 }
+
+/* Links */
+.links {
+    background: #f2f2f2;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+}
+
+.links-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.links li{
+    line-height: 2.8;
+}
+
